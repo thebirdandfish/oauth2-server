@@ -16,6 +16,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;
+import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -42,6 +43,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Autowired
     UserDetailsService userService;
+
+    @Autowired
+    LogoutSuccessHandler logoutSuccessHandler;
+
 
     @Bean
     PasswordEncoder passwordEncoder() {
@@ -77,7 +82,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .csrf().disable()
             .logout()
             .logoutUrl("/logout")
-            .logoutSuccessUrl("/signIn?out")
+            //修改登出逻辑。实现1.登出后跳转Uri ;2.跳转默认Uri;3.返回json或者简单字符串
+            .logoutSuccessHandler(logoutSuccessHandler)
+            //登出后删除浏览器cookie
+            .deleteCookies("JSESSIONID")
             .and()
             .formLogin()
             .authenticationDetailsSource(authenticationDetailsSource)
