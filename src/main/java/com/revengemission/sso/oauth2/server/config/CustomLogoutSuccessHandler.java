@@ -43,7 +43,6 @@ public class CustomLogoutSuccessHandler implements LogoutSuccessHandler {
         }else{
 //            项目没配置uri，说明本项目不是网页应用
             response.setContentType("application/json;charset=UTF-8");
-            //           TODO: 转化为json字符串
             response.getWriter().write("退出成功");
         }
 
