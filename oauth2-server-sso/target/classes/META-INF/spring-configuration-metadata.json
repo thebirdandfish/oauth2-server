@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "custom.security",
+      "type": "com.revengemission.sso.oauth2.server.properties.CustomSecurityProperties",
+      "sourceType": "com.revengemission.sso.oauth2.server.properties.CustomSecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "custom.security.logout-success-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.revengemission.sso.oauth2.server.properties.CustomSecurityProperties"
+    }
+  ],
+  "hints": []
+}

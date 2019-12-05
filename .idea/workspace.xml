@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86ccaecf-1ce6-4a4b-b2ae-8e8f85ce60dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/oauth2-server-sso/oauth2-server-sso.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/service/JTClientRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/Oauth2ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/Oauth2ServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/controller/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/controller/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/AlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/AlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/AlreadyExpiredException.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/AlreadyExpiredException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/EntityNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/EntityNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/JsonObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/JsonObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/LoginHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/LoginHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/NotImplementException.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/NotImplementException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/ParameterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/ParameterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/VerificationCodeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/domain/VerificationCodeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/dozer/mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/jwt.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/sql/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.jqueryui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.semanticui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.semanticui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.semanticui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.semanticui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/dataTables.autoFill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/dataTables.autoFill.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.jqueryui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.semanticui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.semanticui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.colVis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.colVis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.flash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.flash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.html5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.print.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.print.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.semanticui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.semanticui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/dataTables.buttons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/dataTables.buttons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Buttons-1.5.2/swf/flashExport.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.jqueryui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.semanticui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.semanticui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/jquery.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.semanticui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.semanticui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.jqueryui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.semanticui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.semanticui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/dataTables.select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/dataTables.select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.semanticui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.semanticui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/datatables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/DataTables/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/localforage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/moment-with-locales.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/sweetalert2/sweetalert2.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/sweetalert2/sweetalert2.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/sweetalert2/sweetalert2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/sweetalert2/sweetalert2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/sweetalert2/sweetalert2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/static/assets/sweetalert2/sweetalert2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/templates/accessConfirmation-backup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/templates/accessConfirmation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/templates/client/master.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/templates/oauthError.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/templates/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/templates/signIn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/templates/signUp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server-sso/src/main/resources/templates/user/master.html" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/oauth2-server/target/" />
+    <ignored path="$PROJECT_DIR$/oauth2-server-sso/target/" />
+    <ignored path="$PROJECT_DIR$/oauth2-client-user-role/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/Oauth2ServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oauth2-server-sso/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-client-user-role/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-client-user-role/src/main/java/com/revengemission/sso/oauth2/server/Oauth2ClientUserRoleConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>resources</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oauth2-server-sso" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/oauth2-server/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2-client-user-role/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/Oauth2ServerApplication.java" />
+        <option value="$PROJECT_DIR$/oauth2-server-sso/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="420" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-client-user-role" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-client-user-role" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-client-user-role" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-client-user-role" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-client-user-role" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-server-sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-server-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-server-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-server-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-server-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oauth2-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oauth2-server-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Oauth2ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oauth2-server-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revengemission.sso.oauth2.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revengemission.sso.oauth2.server.Oauth2ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Oauth2ServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86ccaecf-1ce6-4a4b-b2ae-8e8f85ce60dc" name="Default Changelist" comment="" />
+      <created>1575544320244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575544320244</updated>
+      <workItem from="1575544326297" duration="1408000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1408000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28061637" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24914089" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Redis Explorer" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/oauth2-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-client-user-role/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server-sso/src/main/java/com/revengemission/sso/oauth2/server/Oauth2ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-client-user-role/src/main/java/com/revengemission/sso/oauth2/server/Oauth2ClientUserRoleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server-sso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26477832" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

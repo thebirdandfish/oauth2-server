@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oauth2-server-sso" />
+        <module name="oauth2-client-user-role" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oauth2-client-user-role" target="1.8" />
+      <module name="oauth2-server" target="1.8" />
+      <module name="oauth2-server-sso" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="oauth2-client-user-role" options="-parameters" />
+      <module name="oauth2-server-sso" options="-parameters -Xlint:deprecation -Xlint:unchecked" />
+    </option>
+  </component>
+</project>
